@@ -15,3 +15,5 @@ $jy = Mage::getModel('core/date')->date('Y');
 
 echo Mage::helper('hijridate/hijridate')->Greg2Hijri($jd, $jm, $jy, true);
 ```
+
+*Date calculation logic from http://www.phpsimplicity.com/tips.php?id=17*
