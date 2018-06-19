@@ -1,0 +1,7 @@
+<global>
+    <helpers>
+        <hijridate>
+            <class>Hijri_Hijrimodule_Helper</class>
+        </hijridate>
+    </helpers>
+</global>
