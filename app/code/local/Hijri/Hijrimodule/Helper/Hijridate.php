@@ -13,7 +13,7 @@ class Hijri_Hijrimodule_Helper_Hijridate extends Mage_Core_Helper_Abstract
 			
 			$month = (int)$month;
 			$locale = Mage::app()->getLocale()->getLocaleCode();
-			if ($locale === 'ar_SA') {
+			if ($locale == 'ar_SA') {
 				$months = array(
 					"محرم",
 					"صفر",
